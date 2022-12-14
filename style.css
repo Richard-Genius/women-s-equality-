@@ -1,71 +1,80 @@
 *{
-    margin: 0px;
-    padding: 0px;
     font-family: 'Noto Sans TC', sans-serif;
 }
-.container{
+/*navbar*/
+.donate_button{
+    width: 150px;
+    color: black;
+    font-size: 20px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+    font-weight: 900;
+}
+/* homepage */
+.homepage_background{
     width: 100%;
     height:100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/imgs/2.jpeg);
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imgs/2.jpeg);
+    background-position:center;
+    background-size:cover;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
 }
-.navbar{
-    height: 12%;
-    display: flex;
+.homepage_content_attribute{
+    padding-top: 20%;
     align-items: center;
 }
-.logo{
-    width: 50px;
-    cursor: pointer;
-}
-.menu-icon{
-    width: 30px;
-    cursor: pointer;
-    margin-left: 40px;
-}
-nav{
-    flex: 1;
-    text-align: center;
-}
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 60px;
-}
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-}
-.row{
-    display: flex;
-    height: 90%;
-    align-items: center;
-}
-.col{
-    flex-basis: 50%;
-}
-h1{
+.homepage_content{
     color: white;
     font-size: 60px;
 }
-p{
+.homepage_content_info{
     color: white;
     font-size: 28px;
     margin-top: 7px;
 }
-button{
-    width: 180px;
-    color: black;
-    font-size: 17px;
-    padding: 12px 0;
-    background: white;
-    border: 0;
-    border-radius: 20px;
-    outline: none;
-    margin-top: 30px;
+
+/* page1 */
+.page1_content{
+    background-color: black;
+}
+.page1_img{
+    max-width: 100%;
+    height: auto;
+
+}
+.page1_content_title{
+    text-align: center;
+    font-size: 64px;
+    color: #FFCD1C;
+    padding-top: 6%;
+}
+.page1_content_title_plugin{
+    color: white;
+    font-size: 55px;
+    color: #FFCD1C;
+    padding-top: 5vh;
+
+}
+.page1_title_plg{
+    display: inline-block;
+    list-style: none;
+    margin-left: 250px;
+}
+.violence_content{
+    padding-top: 5vh;
+
+    
+}
+.plugin2{
+    display: inline-block;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 35px;
+    margin-left: 85px;
+
 }
