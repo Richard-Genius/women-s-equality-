@@ -1,6 +1,13 @@
 *{
     font-family: 'Noto Sans TC', sans-serif;
 }
+.icon{
+    height: 7vh;
+    width: 7vh;
+}
+.justify-content-center{
+    margin-right: 30vh;
+}
 /*navbar*/
 .donate_button{
     width: 150px;
