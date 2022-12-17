@@ -52,13 +52,14 @@
     font-size: 64px;
     color: #FFCD1C;
     padding-top: 6%;
+
 }
 .page1_content_title_plugin{
     color: white;
     font-size: 55px;
     color: #FFCD1C;
     padding-top: 5vh;
-
+    
 }
 .page1_title_plg{
     display: inline-block;
@@ -76,5 +77,30 @@
     color: rgba(255, 255, 255, 0.8);
     font-size: 35px;
     margin-left: 85px;
+    vertical-align: middle;
+}
+.women_equality_title{
+    color: red;
+    font-size: 50px;
+    padding-top: 20vh;
+    text-align: center;
+}
+.women_equality_content{
+    color: white;
+    font-size: 32px;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+}
+.women_equality_words{
+    align-items: center;
+    justify-content: center;
+}
+.sdgs5_img{
+    height: 350px;
+    width: 350px;
 
+    justify-content: center;
+    
 }
