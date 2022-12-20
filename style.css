@@ -210,3 +210,11 @@
 
 
     }
+/*footer*/
+.footer{
+    background: #303030;
+    height: 155px;
+}
+.footer_words{
+    color: white;
+}
