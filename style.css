@@ -187,3 +187,26 @@
     padding-right: 8%;
     box-sizing: border-box;
 }
+.donatepage_content_info{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+.donatepage_content_info2{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+}
+.donatepage_content{
+    color: white;
+    font-size: 60px;
+}
+.donatetd_style{
+    padding: 20px 2%;
+    background: white;
+    outline: 0.25rem solid #FEC02F;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+
+
+    }
