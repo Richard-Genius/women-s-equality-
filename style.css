@@ -272,8 +272,20 @@
 /*footer*/
 .footer{
     background: #303030;
-    height: 155px;
+    height: 150px;
 }
 .footer_words{
     color: white;
+    font-size: 3vh;
+    margin-left: 10%;
+    text-align: left;
 }
+.footer_icon{
+    color: white;
+    margin-left: 10%;
+}
+.footer_icon2{
+    color: white;
+    margin-left: 10px;
+}
+
